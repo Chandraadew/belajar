@@ -2,7 +2,7 @@
 <head>
   <meta charset="utf-8">
   <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><![endif]-->
-  <title>Dashboard Preferences, Free Admin Template</title>
+  <title>Tambah Anggota</title>
   <meta name="keywords" content="" />
   <meta name="description" content="" />
   <meta name="viewport" content="width=device-width">        
@@ -42,40 +42,38 @@ http://www.templatemo.com/preview/templatemo_415_dashboard
           <h1>Tambah Anggota</h1>
           <div class="row">
             <div class="col-md-12">
-              <form role="form" id="templatemo-preferences-form">
+              <form role="form" action="" method="POST" id="templatemo-preferences-form">
                 <div class="row">
                   <div class="col-md-6" >
                     <label for="firstName" class="control-label">First Name</label>
-                    <input type="text" class="form-control" id="firstName" value="">                  
+                    <input type="text" name="first_name" class="form-control" id="firstName" value="">                  
                   </div>
                   <div class="col-md-6" >
                     <label for="lastName" class="control-label">Last Name</label>
-                    <input type="text" class="form-control" id="lastName" value="">                 
+                    <input type="text" name="last_name" class="form-control" id="lastName" value="">                 
                   </div>
                 </div>
-            </form>
           </div>
         </div>
         <div class="row">
           <div class="col-md-12">
-            <form role="form" id="templatemo-preferences-form">
               <div class="row">
                 <div class="col-md-6 margin-bottom-15">
                   <label for="firstName" class="control-label">Username</label>
-                  <input type="text" class="form-control" id="firstName" value="">                  
+                  <input type="text" name="username" class="form-control" id="firstName" value="">                  
                 </div>
                 <div class="col-md-6 margin-bottom-15">
                   <label for="lastName" class="control-label">Email</label>
-                  <input type="text" class="form-control" id="lastName" value="">                 
+                  <input type="email" name="email" class="form-control" id="lastName" value="">                 
                 </div>
               </div>
 
             <div class="row templatemo-form-buttons">
               <div class="col-md-12">
-                <a href="tables.html" class="btn btn-primary">Tambah</a>
+                <button class="btn btn-primary">Tambah</button>
                 <a href="tables.html" class="btn btn-default">Kembali </a>   
               </div>
-            </div>
+            </div> 
           </form>
         </div>
       </div>
